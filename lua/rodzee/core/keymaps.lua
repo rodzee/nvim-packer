@@ -30,6 +30,7 @@ keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>")
 
 -- Nvim-Tree
 keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
+keymap.set("n", "<leader>E", "<C-w>w") -- to move between explorer and editor
 
 -- Telescope
 keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<CR>") -- Find files in the project
