@@ -1,0 +1,4 @@
+[*.lua]
+
+# none/single/double
+quote_style = single
