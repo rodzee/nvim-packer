@@ -6,6 +6,9 @@ local keymap = vim.keymap -- saved in a variable for conciseness
 -- General Keymaps
 keymap.set("i", "jk", "<ESC>") -- pressing 'jk' is the same as the ESCAPE key
 
+keymap.set("n", "<leader>w", ":w<CR>") -- save file
+keymap.set("n", "<leader>W", ":wq<CR>") -- save file and quit
+
 keymap.set("n", "<leader>nh", ":nohl<CR>") -- pressing 'leader nh' clears when using forward slash (/) to search
 
 keymap.set("n", "x", '"_x') -- when deleting with x, it no longer stores it int Register

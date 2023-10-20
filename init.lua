@@ -15,3 +15,6 @@ require("rodzee.plugins.lsp.null-ls")
 require("rodzee.plugins.autopairs")
 require("rodzee.plugins.treesitter")
 require("rodzee.plugins.gitsigns")
+
+-- For some icon fonts to work properlly I used
+-- Caskaydia Cove from Nerd Font
